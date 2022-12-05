@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.option {
+  @apply h-12 w-12 bg-mdGray/10 rounded-full flex items-center justify-center text-lightGray pt-2 cursor-pointer;
+}
+
+.selected {
+  @apply bg-orange text-white;
+}
