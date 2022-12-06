@@ -45,7 +45,8 @@ options.forEach((item) => {
   });
 });
 
-document.querySelector('button').addEventListener('click', () => {
+document.querySelector('.submit-btn').addEventListener('click', (e) => {
+  e.preventDefault();
   if (option !== '') {
     document.querySelector(
       '#rate'

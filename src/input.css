@@ -4,10 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+.body-base {
+  @apply text-[15px] font-overpass h-screen w-screen bg-black flex flex-col items-center justify-center;
+}
+
 .option {
-  @apply h-12 w-12 bg-mdGray/10 rounded-full flex items-center justify-center text-lightGray pt-2 cursor-pointer;
+  @apply h-12 w-12 bg-mdGray/10 rounded-full flex items-center justify-center text-lightGray pt-1.5 cursor-pointer;
 }
 
 .selected {
   @apply bg-orange text-white;
+}
+
+.radio-hide {
+  @apply opacity-0 fixed pointer-events-none;
+}
+
+.submit-btn {
+  @apply bg-orange rounded-full pb-3 pt-4 w-full text-white font-bold mt-8 tracking-widest uppercase md:hover:text-orange md:hover:bg-white md:cursor-pointer;
+}
+
+.card-container {
+  @apply w-[400px] h-[430px] flex-col p-8 bg-gradient-to-b from-darkBlue/90 to-veryDarkBlue mx-auto mb-10 rounded-2xl;
+}
+.star-icon {
+  @apply w-12 h-12 bg-mdGray/10 rounded-full flex items-center justify-center;
 }
