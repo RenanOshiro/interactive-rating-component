@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/rating.png)
+![](./screenshots/rate.jpg)
+![](./screenshots/rating.jpg)
 
 ### Links
 
-- Solution: [Repository](https://github.com/RenanOshiro/interactive-rating-component-main)
-- Live Site: [Live Site](https://renanoshiro.github.io/interactive-rating-component-main/)
+[Live Site](https://renanoshiro.github.io/interactive-rating-component/)
 
 ## My process
 
